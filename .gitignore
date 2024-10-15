@@ -1,0 +1,39 @@
+# Node.js
+inventory-management-backend/node_modules/
+inventory-management-backend/.env
+inventory-management-backend/package-lock.json
+inventory-management-backend/logs/
+inventory-management-backend/npm-debug.log*
+inventory-management-backend/yarn-debug.log*
+inventory-management-backend/yarn-error.log*
+inventory-management-backend/test-output/
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Dependency directories
+node_modules/
+
+# Build output directories
+dist/
+.cache/
+tmp/
+
+# React
+inventory-management-ui/node_modules/
+inventory-management-ui/.env.local
+inventory-management-ui/.env.development.local
+inventory-management-ui/.env.test.local
+inventory-management-ui/.env.production.local
+inventory-management-ui/coverage/
+inventory-management-ui/webpack.config.js
+
+# Misc
+.DS_Store
+.vscode/
+.idea/
+*.iml
+*.sublime-workspace
+*.sublime-project
