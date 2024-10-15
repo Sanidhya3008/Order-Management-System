@@ -1,0 +1,19 @@
+# Auto detect text files and normalize LF/CRLF handling
+* text=auto
+
+# Ensure certain file types always have LF line endings
+*.sh text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Ensure certain file types always have CRLF line endings (Windows)
+*.bat text eol=crlf
+
+# Binary files (should not be modified by Git for line endings)
+*.png binary
+*.jpg binary
+*.gif binary
+*.svg binary
+*.pdf binary
+*.zip binary
+*.tar binary
