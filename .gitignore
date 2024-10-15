@@ -7,6 +7,7 @@ inventory-management-backend/npm-debug.log*
 inventory-management-backend/yarn-debug.log*
 inventory-management-backend/yarn-error.log*
 inventory-management-backend/test-output/
+inventory-management-backend/tests/.env.test
 
 # Logs
 *.log
