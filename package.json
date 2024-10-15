@@ -1,0 +1,11 @@
+{
+    "name": "inventory-management-system",
+    "version": "1.0.0",
+    "scripts": {
+      "start": "cd inventory-management-backend && npm start",
+      "heroku-postbuild": "cd inventory-management-ui && npm install && npm run build"
+    },
+    "engines": {
+      "node": "14.x"
+    }
+  }

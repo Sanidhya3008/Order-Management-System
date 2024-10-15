@@ -1,0 +1,1 @@
+web: cd inventory-management-backend && npm start
